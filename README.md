@@ -1,12 +1,12 @@
-# Serverless Record App
+# Serverless Science Record App
 
-Serverless record application where a user can pen down their thoughts, feelings and inspired images.
+Serverless Science Record App is an application that allows scientists and researchers to keep a log of all their findings and also attach images. The aaplication is built off code from Udacity's Cloud Developer Nanodegree Program.
 
 ## Functionality 
 
-- The application allows users to create, update, delete diary items.
+- The application allows users to create, update, delete research entry items.
 - The application allows users to upload a file. 
-- The application only displays items/Diaries for a logged in user.
+- The application only displays entries created by the user currently logged in.
 - A user needs to authenticate in order to use an application
 
 ## Codebase
@@ -16,7 +16,7 @@ Serverless record application where a user can pen down their thoughts, feelings
 
 ## Best Pratices
 
-- All resources in the application are defined in the `serverless.yml` file.
+- All AWS resources in the application are defined in the `serverless.yml` file.
 - Each function has its own set of permissions.
 - Application has sufficient monitoring.
 - HTTP requests are validated.
@@ -57,3 +57,5 @@ cd client
 npm install
 npm run start
 ```
+In case of any errors while running the start script, install react dependencies with
+npm install react-scripts --save-dev
