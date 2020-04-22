@@ -58,4 +58,6 @@ npm install
 npm run start
 ```
 In case of any errors while running the start script, install react dependencies with
+```
 npm install react-scripts --save-dev
+```
